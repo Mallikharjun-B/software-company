@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Company - Home</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="popstyle.css">
+</head>
+<body>
+    <header>
+        
+        <div class="header-container">
+            <img src="logo11.png" alt="logo" width="70px">
+            <h1>Software Company</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="wk.html">Work</a></li>
+                    <li><a href="swteam.html">Team</a></li>
+                    <li><a href="cont.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="video-container">
+        <video autoplay muted loop width="1540">
+            <source src="networkvid.mp4" type="video/mp4">
+            
+        </video>
+    </div> 
+    
+    <footer>
+        <div class="footer-container">
+            <p><strong>Email:</strong> info@codeteksoftwarecompany.com</p>
+            <p><strong>Phone:</strong> +1-234-567-8901</p>
+            <p>&copy; 2024 Codetek Software Company. All rights reserved.</p>
+        <div class="social">
+            <a href="https://www.facebook.com/login/"><img src="img/facebook.jpg" alt="Facebook"></a>
+            <a href="https://x.com/i/flow/login"><img src="img/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/"><img src="img/youtube.png" alt="YouTube"></a>
+            <a
+                href="https://www.google.com/maps/place/Hyderabad,+Telangana/@17.4120779,78.0783859,10z/data=!3m1!4b1!4m6!3m5!1s0x3bcb99daeaebd2c7:0xae93b78392bafbc2!8m2!3d17.406498!4d78.4772439!16zL20vMDljNnc?entry=ttu"><img
+                    src="img/map.png" alt="YouTube"></a>
+        </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to toggle dropdown content
+        const dropdownBtns = document.querySelectorAll('.dropdown-btn');
+        dropdownBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const dropdownContent = this.nextElementSibling;
+                dropdownContent.classList.toggle('show');
+            });
+        });
+    
+    </script>
+
+</body>
+</html>

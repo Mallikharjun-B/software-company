@@ -1,0 +1,144 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(102, 27, 102);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.service h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.toggle-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.details {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e9ecef;
+}
+
+.details.show {
+    display: block;
+}
+
+.work {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.team {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.member {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.member h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color:rgb(102, 27, 102);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}

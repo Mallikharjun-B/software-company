@@ -1,0 +1,110 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(102, 27, 102);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-right: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: -10%;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 100px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+.services, .work, .team, .contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    margin-bottom: 30px;
+}
+
+.dropdown-btn {
+    background-color:purple;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.team .dropdown-btn, .team .dropdown-content {
+    text-align: center;
+}
+
+.footer-container {
+    background-color:rgb(102, 27, 102);
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    font-size: 15px;
+    margin-top: -0.7%;
+}
+
+.footer-container p {
+    margin: 0;
+    text-align: center;
+}
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
